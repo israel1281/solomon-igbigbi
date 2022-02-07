@@ -1,0 +1,108 @@
+.contact {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.contact .content {
+  display: flex;
+  width: 90%;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
+  justify-self: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contact .left {
+  width: 100%;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #4b5563;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(75 85 99 / 0));
+  --tw-gradient-to: transparent;
+  border-radius: 0.5rem;
+  color: rgb(243 244 246);
+  padding: 3rem;
+}
+
+.left-content h3 {
+  font-size: 1.9rem;
+  line-height: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.left-content p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+  line-height: 1.625;
+  color: rgb(243 244 246);
+}
+
+.left-content .left-content-icons {
+  cursor: pointer;
+  color: white;
+  margin-left: 20px; 
+}
+
+.left-content-icons a {
+  color: white;
+}
+
+.left-content-icons .icon {
+  margin-left: 30px;
+  width: 35px
+}
+
+.left-content-icons .icon:hover {
+  color: white;
+  transform: scale(1.10);
+}
+
+.contact .right {
+  width: 100%;
+  display: none;
+}
+
+.right img {
+  height: 24rem;
+}
+
+
+@media screen and (min-width: 900px) {
+  .contact .left {
+    width: 60%;
+    --tw-gradient-from: #111827;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(17 24 39 / 0));
+    --tw-gradient-from: #111827;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(17 24 39 / 0));
+    --tw-gradient-to: transparent;
+  }
+
+  .left .left-content {
+    width: 50%;
+    color: white;
+  }
+
+  .left-content-icons {
+    margin-left: 70px;
+    color: white;
+  }
+
+  .left-content-icons .icon {
+    margin-left: 30px;
+  }
+
+  .contact .right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+  }
+}
