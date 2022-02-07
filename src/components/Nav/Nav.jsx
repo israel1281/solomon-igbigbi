@@ -1,7 +1,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import { animateScroll as scroll } from "react-scroll"
-import MenuIcon from "../Menu/MenuIcon/MenuIcon"
+import MenuIcon from "./Menu/MenuIcon/MenuIcon"
 import "./nav.css"
 
 
