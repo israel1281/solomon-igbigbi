@@ -1,7 +1,7 @@
 import React from "react"
 import Typical from "react-typical"
 import "./contact.css"
-import { Heading } from "../Heading/Heading"
+import { Heading } from "./Heading/Heading"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
