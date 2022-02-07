@@ -3,8 +3,8 @@ import "./services.css"
 
 import { services } from "../../data/data"
 
-import { ServicesCard } from "./ServicesCard/ServicesCard"
-import { Heading } from "./Heading/Heading"
+import { ServicesCard } from "../ServicesCard/ServicesCard"
+import { Heading } from "../Heading/Heading"
 
 const Services = () => {
   return (
